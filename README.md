@@ -41,16 +41,16 @@
             background-size: cover;
             background-position: center;
             color: white;
-            padding: 100px 20px;
+            padding: 150px 20px;
             text-align: center;
         }
         header h1 {
-            font-size: 48px;
+            font-size: 72px;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
             background-color: rgba(0, 0, 0, 0.5);
             display: inline-block;
-            padding: 10px 20px;
-            border-radius: 5px;
+            padding: 20px 40px;
+            border-radius: 10px;
         }
         section {
             background-color: rgba(255, 255, 255, 0.9);
@@ -121,6 +121,10 @@
             .mision-vision div {
                 width: 100%;
             }
+            header h1 {
+                font-size: 48px;
+                padding: 15px 30px;
+            }
         }
         footer {
             background-color: rgba(51, 51, 51, 0.9);
@@ -160,6 +164,40 @@
             font-size: 16px;
             color: #555;
         }
+        .horarios {
+            text-align: center;
+            margin: 20px 0;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .horarios h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .horarios p {
+            font-size: 16px;
+            color: #555;
+        }
+        .ubicacion {
+            text-align: center;
+            margin: 20px 0;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .ubicacion h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .ubicacion iframe {
+            width: 100%;
+            height: 300px;
+            border: 0;
+            border-radius: 10px;
+        }
     </style>
 </head>
 <body>
@@ -183,7 +221,7 @@
                     <p>Torneado y fresado de precisión</p>
                 </div>
                 <div class="servicio">
-                    <img src="https://images.pexels.com/photos-5915147/pexels-photo-5915147.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Diseño">
+                    <img src="https://images.pexels.com/photos/5915147/pexels-photo-5915147.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Diseño">
                     <p>Diseño y fabricación de piezas mecánicas</p>
                 </div>
                 <div class="servicio">
@@ -194,7 +232,6 @@
                     <img src="https://images.unsplash.com/photo-1736161999630-9feb825596a6?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Ingeniería">
                     <p>Ingeniería inversa y optimización de componentes</p>
                 </div>
-                <!-- Nuevo servicio: Corte láser y grabado -->
                 <div class="servicio">
                     <img src="https://images.unsplash.com/photo-1738162837451-2041c1418f54?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Corte láser y grabado">
                     <p>Corte láser y grabado</p>
@@ -237,29 +274,21 @@
                 <button type="submit">Enviar</button>
             </form>
         </section>
-        <section>
+        <!-- Sección de Horarios de Atención -->
+        <section class="horarios">
+            <h2>Horarios de Atención</h2>
+            <p>Lunes a Viernes: 9:00 a 18:00</p>
+            <p>Sábados: 9:00 a 12:00</p>
+            <p>Para atención fuera de horario, contáctanos por correo o WhatsApp.</p>
+        </section>
+        <!-- Sección de Ubicación -->
+        <section class="ubicacion">
             <h2>Ubicación</h2>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12345.6789!2d-99.123456!3d19.123456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTnCsDA7JzI0LjgiTiA5OcKwMDcnMjQuOCJX!5e0!3m2!1ses!2smx!4v1234567890123!5m2!1ses!2smx" 
-                    width="100%" 
-                    height="300" 
-                    style="border:0;" 
+            <p>Col. José Clemente Orozco, Guadalajara, Jalisco.</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3733.383684798084!2d-103.37126668459115!3d20.653557486202835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428b1f8a5f5f5f5%3A0x5f5f5f5f5f5f5f5f!2sCol.%20Jos%C3%A9%20Clemente%20Orozco%2C%20Guadalajara%2C%20Jal.!5e0!3m2!1ses!2smx!4v1633036800000!5m2!1ses!2smx" 
                     allowfullscreen="" 
                     loading="lazy">
             </iframe>
-        </section>
-        <section>
-            <h2>Contacto</h2>
-            <p>Para más información, no dudes en contactarnos:</p>
-            <ul style="list-style-type: none; padding-left: 0;">
-                <li><strong>Joshua Solis:</strong> 
-                    <a href="tel:3315841619">331 584 1619</a> | 
-                    <a href="mailto:Joshuasolis_05@hotmail.com">Joshuasolis_05@hotmail.com</a>
-                </li>
-                <li><strong>Francisco Antonio:</strong> 
-                    <a href="tel:3310000793">331 000 0793</a> | 
-                    <a href="mailto:Fsolyluna@hotmail.com">Fsolyluna@hotmail.com</a>
-                </li>
-            </ul>
         </section>
     </main>
     <footer>
