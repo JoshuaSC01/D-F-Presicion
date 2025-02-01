@@ -289,6 +289,20 @@
                     allowfullscreen="" 
                     loading="lazy">
             </iframe>
+         </section>
+        <section>
+            <h2>Contacto</h2>
+            <p>Para más información, no dudes en contactarnos:</p>
+            <ul style="list-style-type: none; padding-left: 0;">
+                <li><strong>Joshua Solis:</strong> 
+                    <a href="tel:3315841619">331 584 1619</a> | 
+                    <a href="mailto:Joshuasolis_05@hotmail.com">Joshuasolis_05@hotmail.com</a>
+                </li>
+                <li><strong>Francisco Antonio:</strong> 
+                    <a href="tel:3310000793">331 000 0793</a> | 
+                    <a href="mailto:Fsolyluna@hotmail.com">Fsolyluna@hotmail.com</a>
+                </li>
+            </ul>
         </section>
     </main>
     <footer>
