@@ -4,6 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>D&F Precisión</title>
+    <!-- Etiquetas meta agregadas -->
+    <meta name="description" content="D&F Precisión: Taller especializado en maquinados, CNC, torno, diseño y corte láser en Guadalajara. Servicios de alta precisión y calidad.">
+    <meta name="keywords" content="Guadalajara, Maquinados, CNC, Torno, Diseño, Corte laser, Taller torno, Mecanizado de precisión, Ingeniería inversa, Prototipado">
+    <meta name="author" content="D&F Precisión">
+    <meta name="robots" content="index, follow">
+    <!-- Open Graph para redes sociales -->
+    <meta property="og:title" content="D&F Precisión - Maquinados y CNC en Guadalajara">
+    <meta property="og:description" content="Servicios de maquinados, CNC, torno, diseño y corte láser en Guadalajara. Precisión y calidad garantizada.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.dfprecision.com">
+    <meta property="og:image" content="https://www.dfprecision.com/imagen.jpg">
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
@@ -313,7 +324,7 @@
             <a href="#">LinkedIn</a>
         </p>
     </footer>
-    <a href="https://wa.me/523315841619" target="_blank" style="position: fixed; bottom: 20px; right: 20px; background-color: #25D366; color: white; padding: 15px; border-radius: 50%; text-decoration: none; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);">
+    <a href="https://wa.me/523310000793" target="_blank" style="position: fixed; bottom: 20px; right: 20px; background-color: #25D366; color: white; padding: 15px; border-radius: 50%; text-decoration: none; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);">
         <i class="fab fa-whatsapp" style="font-size: 24px;"></i>
     </a>
 </body>
