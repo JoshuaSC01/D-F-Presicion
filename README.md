@@ -4,6 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>D&F Precisión</title>
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <!-- Fuentes y estilos -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
@@ -11,11 +30,14 @@
             font-family: 'Roboto', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f8f9fa;
+            background-image: url('https://images.unsplash.com/photo-1666634157070-6fd830fb5672?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
             color: #333;
         }
         header {
-            background-image: url('https://drive.google.com/uc?export=view&id=1TH70Y8t1fN8W5j2PC2eG-cLl2XGOruDx'); /* ¡Enlace directo de tu imagen! */
+            background-image: url('https://drive.google.com/uc?export=view&id=1TH70Y8t1fN8W5j2PC2eG-cLl2XGOruDx');
             background-size: cover;
             background-position: center;
             color: white;
@@ -25,13 +47,13 @@
         header h1 {
             font-size: 48px;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-            background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para mejor legibilidad */
+            background-color: rgba(0, 0, 0, 0.5);
             display: inline-block;
             padding: 10px 20px;
             border-radius: 5px;
         }
         section {
-            background-color: white;
+            background-color: rgba(255, 255, 255, 0.9);
             border-radius: 10px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             margin: 20px auto;
@@ -79,9 +101,11 @@
             background-color: #218838;
         }
         .justificado {
-            text-align: left;
+            text-align: center;
             max-width: 800px;
             margin: auto;
+            font-size: 18px;
+            line-height: 1.6;
         }
         .mision-vision {
             display: flex;
@@ -99,7 +123,7 @@
             }
         }
         footer {
-            background-color: #333;
+            background-color: rgba(51, 51, 51, 0.9);
             color: white;
             padding: 20px;
             text-align: center;
@@ -109,6 +133,33 @@
             margin: 0 10px;
             text-decoration: none;
         }
+        .servicios-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .servicio {
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.95);
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .servicio:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+        .servicio img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+        .servicio p {
+            font-size: 16px;
+            color: #555;
+        }
     </style>
 </head>
 <body>
@@ -117,33 +168,40 @@
     </header>
     <main>
         <section>
-            <h2>Sobre Nosotros</h2>
-            <p class="justificado">En D&F Precisión, nos especializamos en el diseño y fabricación de piezas mecánicas de alta precisión. 
-               Brindamos servicios de mecanizado, prototipado y producción en serie, asegurando calidad en cada detalle. 
-               Nuestro equipo combina experiencia y tecnología para transformar tus ideas en productos funcionales con acabados impecables.</p>
+            <h2 style="text-align: center; font-size: 32px;">Sobre Nosotros</h2>
+            <p class="justificado">
+                En D&F Precisión, nos especializamos en el diseño y fabricación de piezas mecánicas de alta precisión. 
+                Brindamos servicios de mecanizado, prototipado y producción en serie, asegurando calidad en cada detalle. 
+                Nuestro equipo combina experiencia y tecnología para transformar tus ideas en productos funcionales con acabados impecables.
+            </p>
         </section>
         <section>
-            <h2>Servicios</h2>
-            <div style="display: flex; justify-content: space-around; flex-wrap: wrap;">
-                <div style="text-align: center; width: 200px; margin: 10px;">
-                    <img src="https://via.placeholder.com/50" alt="Torneado">
+            <h2 style="text-align: center; font-size: 32px;">Servicios</h2>
+            <div class="servicios-container">
+                <div class="servicio">
+                    <img src="https://images.unsplash.com/photo-1652888510609-ed2d2ad64d6b?q=80&w=1527&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Torneado">
                     <p>Torneado y fresado de precisión</p>
                 </div>
-                <div style="text-align: center; width: 200px; margin: 10px;">
-                    <img src="https://via.placeholder.com/50" alt="Diseño">
+                <div class="servicio">
+                    <img src="https://images.pexels.com/photos-5915147/pexels-photo-5915147.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Diseño">
                     <p>Diseño y fabricación de piezas mecánicas</p>
                 </div>
-                <div style="text-align: center; width: 200px; margin: 10px;">
-                    <img src="https://via.placeholder.com/50" alt="Prototipado">
+                <div class="servicio">
+                    <img src="https://images.unsplash.com/photo-1729854808531-b3cf8c341993?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Prototipado">
                     <p>Prototipado y producción en serie</p>
                 </div>
-                <div style="text-align: center; width: 200px; margin: 10px;">
-                    <img src="https://via.placeholder.com/50" alt="Ingeniería">
+                <div class="servicio">
+                    <img src="https://images.unsplash.com/photo-1736161999630-9feb825596a6?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Ingeniería">
                     <p>Ingeniería inversa y optimización de componentes</p>
+                </div>
+                <!-- Nuevo servicio: Corte láser y grabado -->
+                <div class="servicio">
+                    <img src="https://images.unsplash.com/photo-1738162837451-2041c1418f54?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Corte láser y grabado">
+                    <p>Corte láser y grabado</p>
                 </div>
             </div>
             <a href="#cotizacion" style="text-decoration: none;">
-                <button style="margin-top: 20px;">Solicitar Cotización</button>
+                <button style="margin-top: 20px; display: block; margin-left: auto; margin-right: auto;">Solicitar Cotización</button>
             </a>
         </section>
         <section class="mision-vision">
@@ -181,7 +239,7 @@
         </section>
         <section>
             <h2>Ubicación</h2>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12345.6789!2d-99.123456!3d19.123456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTnCsDA3JzI0LjgiTiA5OcKwMDcnMjQuOCJX!5e0!3m2!1ses!2smx!4v1234567890123!5m2!1ses!2smx" 
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12345.6789!2d-99.123456!3d19.123456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTnCsDA7JzI0LjgiTiA5OcKwMDcnMjQuOCJX!5e0!3m2!1ses!2smx!4v1234567890123!5m2!1ses!2smx" 
                     width="100%" 
                     height="300" 
                     style="border:0;" 
@@ -193,8 +251,14 @@
             <h2>Contacto</h2>
             <p>Para más información, no dudes en contactarnos:</p>
             <ul style="list-style-type: none; padding-left: 0;">
-                <li><strong>Joshua Solis:</strong> <a href="tel:3315841619">331 584 1619</a></li>
-                <li><strong>Francisco Antonio:</strong> <a href="tel:3310000793">331 000 0793</a></li>
+                <li><strong>Joshua Solis:</strong> 
+                    <a href="tel:3315841619">331 584 1619</a> | 
+                    <a href="mailto:Joshuasolis_05@hotmail.com">Joshuasolis_05@hotmail.com</a>
+                </li>
+                <li><strong>Francisco Antonio:</strong> 
+                    <a href="tel:3310000793">331 000 0793</a> | 
+                    <a href="mailto:Fsolyluna@hotmail.com">Fsolyluna@hotmail.com</a>
+                </li>
             </ul>
         </section>
     </main>
