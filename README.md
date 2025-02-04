@@ -4,17 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>D&F Precisión</title>
-    <!-- Etiquetas meta agregadas -->
-    <meta name="description" content="D&F Precisión: Taller especializado en maquinados, CNC, torno, diseño y corte láser en Guadalajara. Servicios de alta precisión y calidad.">
-    <meta name="keywords" content="Guadalajara, Maquinados, CNC, Torno, Diseño, Corte laser, Taller torno, Mecanizado de precisión, Ingeniería inversa, Prototipado">
-    <meta name="author" content="D&F Precisión">
-    <meta name="robots" content="index, follow">
-    <!-- Open Graph para redes sociales -->
-    <meta property="og:title" content="D&F Precisión - Maquinados y CNC en Guadalajara">
-    <meta property="og:description" content="Servicios de maquinados, CNC, torno, diseño y corte láser en Guadalajara. Precisión y calidad garantizada.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.dfprecision.com">
-    <meta property="og:image" content="https://www.dfprecision.com/imagen.jpg">
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
@@ -232,7 +221,7 @@
                     <p>Torneado y fresado de precisión</p>
                 </div>
                 <div class="servicio">
-                    <img src="https://images.pexels.com/photos/5915147/pexels-photo-5915147.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Diseño">
+                    <img src="https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/ee5506e1dc1d30cf73826786234ade75/large.jpg" alt="Diseño">
                     <p>Diseño y fabricación de piezas mecánicas</p>
                 </div>
                 <div class="servicio">
@@ -268,13 +257,44 @@
             </div>
         </section>
         <section>
-            <h2>Galería</h2>
-            <div class="gallery">
-                <img src="https://via.placeholder.com/300" alt="Plano de fabricación">
-                <img src="https://via.placeholder.com/300" alt="Programa de diseño">
-                <img src="maquina-torno.jpg" alt="Máquina de torno en acción">
-                <img src="pieza-terminada.jpg" alt="Pieza terminada con acabado de precisión">
-            </div>
+        <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diseño y Fabricación</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            padding: 20px;
+        }
+        .gallery img {
+            width: 300px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+<html lang="es">
+</head>
+<body>
+    <h1>Diseño y Fabricación</h1>
+    <h2>Galería</h2>
+    <div class="gallery">
+        <img src="https://img.freepik.com/foto-gratis/maquina-metalica-fabrica_1112-248.jpg?t=st=1738622894~exp=1738626494~hmac=a3eda834cc7c5e97139988ced8a6556e32d583926fa74303113e28e6d674d78c&w=740" alt="Máquina metálica en fábrica">
+        <img src="https://img.freepik.com/foto-gratis/cortar-madera-contrachapada_1098-13347.jpg?t=st=1738625189~exp=1738628789~hmac=4c4456da7bb770b6a7e847b9155de4d7e2b8a12164f2f3a3539a2c112886c11d&w=740">
+        <img src="https://img.freepik.com/foto-gratis/taladro-metal-industrial-taller-metalurgico_342744-520.jpg?t=st=1738622907~exp=1738626507~hmac=75ad33ac7867ef6c1acd84594a595c5250874d7ed121d99fc4daa7c3b8cadfce&w=740" alt="Taladro en taller metalúrgico">
+        <img src="https://images.unsplash.com/photo-1727292486169-33eba0865c99?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Maquinaria industrial">
+        <img src="https://images.unsplash.com/photo-1727292485794-925866ec2372?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Piezas metálicas">
+        <img src="https://images.unsplash.com/photo-1602223114290-ba6de2938acc?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Torno industrial">
+     </div>
         </section>
         <section id="cotizacion">
             <h2>Solicita una Cotización</h2>
@@ -317,14 +337,14 @@
         </section>
     </main>
     <footer>
-        <p>Contacto: Fsolyluna@hotmail.com | Tel: +52 331 000 0793</p>
+        <p>Contacto: Fsolyluna@hotmail.com | Tel: +52 123 456 7890</p>
         <p>Síguenos en:
             <a href="#">Facebook</a>
             <a href="#">Instagram</a>
             <a href="#">LinkedIn</a>
         </p>
     </footer>
-    <a href="https://wa.me/523310000793" target="_blank" style="position: fixed; bottom: 20px; right: 20px; background-color: #25D366; color: white; padding: 15px; border-radius: 50%; text-decoration: none; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);">
+    <a href="https://wa.me/523315841619" target="_blank" style="position: fixed; bottom: 20px; right: 20px; background-color: #25D366; color: white; padding: 15px; border-radius: 50%; text-decoration: none; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);">
         <i class="fab fa-whatsapp" style="font-size: 24px;"></i>
     </a>
 </body>
