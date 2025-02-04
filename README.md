@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -283,7 +283,6 @@
         }
     </style>
 <html lang="es">
-</head>
 <body>
     <h1>Diseño y Fabricación</h1>
     <h2>Galería</h2>
@@ -295,7 +294,6 @@
         <img src="https://images.unsplash.com/photo-1727292485794-925866ec2372?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Piezas metálicas">
         <img src="https://images.unsplash.com/photo-1602223114290-ba6de2938acc?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Torno industrial">
      </div>
-        </section>
         <section id="cotizacion">
             <h2>Solicita una Cotización</h2>
             <form action="https://formspree.io/f/myyabcde" method="POST">
